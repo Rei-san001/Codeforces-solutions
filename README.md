@@ -1,2 +1,3 @@
 # Codeforces-solutions
-Enjoy!
+I really hope this will help you!
+Thank you!
