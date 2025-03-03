@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-    string s;
-    cin>>s;
+    string t;
+    cin>>t;
 
     int count=0;
 
-    for(int i=0; i<s.length(); i++){
+    for(int i=0; i<t.length(); i++){
 
-        if(s[i]=='4' || s[i]=='7'){
+        if(t[i]=='4' || t[i]=='7'){
             count++;
         }
     }
@@ -18,7 +18,6 @@ int main()
     if(count==4 || count==7){
         cout<<"YES";
     }
-
     else
         cout<<"NO";
 }
